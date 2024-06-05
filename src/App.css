@@ -1,0 +1,46 @@
+body {
+  top: 0; 
+  width: 100%; 
+  height: 100vh; 
+  background: radial-gradient(ellipse 80% 80% at 50% -20%,rgba(167, 167, 167, 0.452),rgba(255, 255, 255, 0));
+  background-color: var(--color-negro);
+  background-repeat: no-repeat;
+}
+
+.app__max {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.3rem;
+}
+
+.app__mockups {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  padding: 0 1rem;
+}
+
+
+.app__mockup {
+  width: 100%;
+  max-width: 450px;
+  margin-bottom: 4rem;
+}
+
+.app__AboutUs {
+  width: 100%;
+  padding: 4rem 0;
+  background-color: var(--color-amarillo-claro);
+}
+
+.app__OurWork {
+  width: 100%;
+  background-color: var(--color-amarillo-claro);
+}
+
+.app__comments {
+  width: 100%;
+  background-color: var(--color-amarillo-claro);
+  padding: 4rem 0;
+}

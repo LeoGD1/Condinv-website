@@ -1,0 +1,50 @@
+.actividad {
+    color: var(--color-blanco);
+    border-left: 2px solid var(--color-gris);
+}
+
+.actividad__contenedor {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.actividad__circulo {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: var(--color-amarillo-claro);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+    left: -11px;
+}
+
+.actividad__h3 {
+    font-family: var(--titulo-oswald);
+    color: var(--color-amarillo);
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.1rem;
+}
+
+.actividad__p {
+    font-size: 1.1rem;
+    margin-top: 15px;
+}
+ 
+.actividad.left {
+    text-align: left;
+}
+
+.actividad.right {
+    text-align: right;
+}
+
+.actividad__p {
+    padding-left: 35px;
+    padding-bottom: 30px;
+}

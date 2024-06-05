@@ -1,0 +1,22 @@
+.proceso {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.proceso__h2 {
+    font-family: var(--titulo-oswald);
+    color: var(--color-amarillo);
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.proceso__actividades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}

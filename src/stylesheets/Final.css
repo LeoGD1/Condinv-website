@@ -1,0 +1,30 @@
+.final {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.final__h1 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: var(--titulo-oswald);
+    color: var(--color-amarillo);
+    margin-bottom: 10px;
+}
+
+.final__p {
+    color: var(--color-blanco);
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+}
+
+.final__a {
+    padding: 10px 30px;
+    color: var(--color-negro);
+    background-color: var(--color-amarillo-claro);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}

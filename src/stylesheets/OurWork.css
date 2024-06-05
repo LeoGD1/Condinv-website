@@ -1,0 +1,13 @@
+.OurWork {
+    width: 100%;
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+.OurWork__h2 {
+    font-family: var(--titulo-oswald);
+    color: var(--color-negro);
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}

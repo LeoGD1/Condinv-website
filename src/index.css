@@ -1,0 +1,20 @@
+:root {
+  --color-blanco: #fff;
+  --color-negro: #000;
+  --color-gris: #9b9b9b;
+  --color-amarillo: #f3f23f;
+  --color-amarillo-claro: #f7f99b;
+  --titulo-oswald: "Oswald", sans-serif;
+  --parrafo-onest: "Onest", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: var(--parrafo-onest);
+}

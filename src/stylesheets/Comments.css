@@ -1,0 +1,13 @@
+.comments {
+    width: 100%;
+    text-align: center;
+}
+
+.comments__h2 {
+    font-family: var(--titulo-oswald);
+    color: var(--color-negro);
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+

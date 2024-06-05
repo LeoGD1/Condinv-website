@@ -1,0 +1,35 @@
+.main {
+    text-align: center;
+    width: 100%; 
+    min-height: calc(100vh - 180px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__h1 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: var(--titulo-oswald);
+    color: var(--color-amarillo);
+    margin-bottom: 10px;
+}
+
+.main__p {
+    color: var(--color-blanco);
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+}
+
+.main__a {
+    padding: 10px 30px;
+    color: var(--color-negro);
+    background-color: var(--color-amarillo-claro);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}

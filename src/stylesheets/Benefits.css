@@ -1,0 +1,22 @@
+.benefits {
+    width: 100%;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.benefits__container {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.benefits__h2 {
+    font-family: var(--titulo-oswald);
+    color: var(--color-amarillo);
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+
