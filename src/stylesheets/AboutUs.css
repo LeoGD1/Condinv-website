@@ -32,3 +32,48 @@
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
 }
+
+@media screen and (min-width: 768px) {
+    .AboutUs {
+        display: flex;
+        align-items: center;
+    }
+
+    .AboutUs__h2 {
+        font-size: 3rem;
+    }
+
+    .AboutUs__container-text {
+        width: 30%;
+        padding: 1.5rem 0;
+        border-right: 1px solid var(--color-negro);
+    }
+
+    .AboutUs__textos {
+        text-align: left;
+        width: 60%;
+        margin: 0;
+        padding: 0 2rem;
+        align-items: flex-start;
+    }
+
+    .AboutUs__p {
+        font-size: 1.3rem;
+    }
+
+    .AboutUs__a {
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .AboutUs__p {
+        font-size: 1.4rem;
+    }
+} 
+
+@media screen and (min-width: 1024px){
+    .AboutUs__p {
+        font-size: 1.4rem;
+    }
+}

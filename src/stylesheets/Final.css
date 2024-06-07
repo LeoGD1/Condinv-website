@@ -28,3 +28,22 @@
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
 }
+
+@media screen and (min-width: 768px){
+    .final__h1 {
+        font-size: 3rem;
+        padding-left: 2rem;
+        padding-right: 2rem; 
+    }
+}
+
+@media screen and (min-width: 1024px){
+
+    .final {
+        padding: 7rem 4rem;
+    }
+
+    .final__h1 {
+        font-size: 3.5rem;
+    }
+}

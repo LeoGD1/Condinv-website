@@ -1,6 +1,6 @@
 .actividad {
     color: var(--color-blanco);
-    border-left: 2px solid var(--color-gris);
+    border-left: 1px solid var(--color-gris);
 }
 
 .actividad__contenedor {
@@ -20,7 +20,7 @@
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     position: relative;
-    left: -11px;
+    left: -10px;
 }
 
 .actividad__h3 {
@@ -47,4 +47,8 @@
 .actividad__p {
     padding-left: 35px;
     padding-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    
 }

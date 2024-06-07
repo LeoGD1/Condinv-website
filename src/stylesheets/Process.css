@@ -20,3 +20,9 @@
     max-width: 600px;
     margin: 0 auto;
 }
+
+@media screen and (min-width: 768px) {
+    .proceso__h2 {
+        font-size: 2.5rem;
+    }
+}

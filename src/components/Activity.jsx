@@ -1,7 +1,7 @@
 import React from 'react'
 import '../stylesheets/Activity.css'
 
-const Activity = ( {direction, titulo, parrafo, circulo} ) => {
+const Activity = ( {direction, titulo, parrafo} ) => {
   return (
     <div className={direction ? 'actividad left' : 'actividad right'}>
       <div className='actividad__contenedor'>
