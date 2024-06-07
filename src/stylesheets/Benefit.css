@@ -8,7 +8,7 @@
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
-    min-height: 70px;
+    min-height: 200px;
     display: flex;
     flex-direction: column;
     color: var(--color-amarillo-claro);

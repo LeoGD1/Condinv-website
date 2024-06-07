@@ -38,7 +38,7 @@ const Process = () => {
         <div className='proceso__actividades'>
             {   
                 actividades.map(actividad => ( 
-                    <Activity 
+                    <Activity
                     key={actividad.id}
                     direction={actividad.direccion}
                     titulo={actividad.titulo}
