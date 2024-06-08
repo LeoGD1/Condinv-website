@@ -20,19 +20,6 @@
     margin-bottom: 20px;
 }
 
-.AboutUs__a {
-    margin: auto;
-    padding: 10px 30px;
-    flex-grow: 0;
-    color: var(--color-amarillo-claro);
-    background-color: var(--color-negro);
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-}
-
 @media screen and (min-width: 768px) {
     .AboutUs {
         display: flex;
@@ -59,10 +46,6 @@
 
     .AboutUs__p {
         font-size: 1.3rem;
-    }
-
-    .AboutUs__a {
-        margin: 0;
     }
 }
 

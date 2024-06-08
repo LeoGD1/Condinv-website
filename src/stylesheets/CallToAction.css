@@ -1,0 +1,25 @@
+.button {
+    padding: 10px 30px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin: 0 auto;
+}
+
+.button.amarillo {
+    color: var(--color-negro);
+    background-color: var(--color-amarillo-claro);
+}
+
+.button.negro {
+    color: var(--color-amarillo-claro);
+    background-color: var(--color-negro);
+}
+
+@media screen and (min-width: 768px) {
+    .button {
+        margin: 0;
+    }
+}

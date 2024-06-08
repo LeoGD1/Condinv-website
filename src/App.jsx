@@ -20,7 +20,9 @@ function App() {
     <div className='app'>
 
       <div className='app__max'>
-        <NavBar />
+        <NavBar 
+          instagram='https://www.instagram.com/codinv_/'
+          whatsapp='https://api.whatsapp.com/send?phone=+527227785391&text=%C2%A1Hola,%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20las%20invitaciones%20digitales%20web!' />
         <Main />
         <div className='app__mockups'>
           <img className='app__mockup' src={mockups} alt="invitaciones digitales web" />
