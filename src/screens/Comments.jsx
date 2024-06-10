@@ -3,9 +3,9 @@ import Slider from "react-slick";
 import '../stylesheets/Comments.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import comUno from '../assets/comment-1.png';
-import comDos from '../assets/comment-2.png';
-import comTres from '../assets/comment-3.png';
+import comUno from '../assets/comment-1.jpg';
+import comDos from '../assets/comment-2.jpg';
+import comTres from '../assets/comment-3.jpg';
 import Comment from '../components/Comment';
 
 const comentarios = [
