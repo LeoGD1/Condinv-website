@@ -18,8 +18,8 @@ function App() {
           </div>
         <Routes>
           <Route path='/' element={ <Navigate  to='/Inicio' replace /> }/>
-          <Route path='/Inicio' element={ <Home /> }/>
-          <Route path='/Precios' element={ <Prices /> }/>
+          <Route path='/inicio' element={ <Home /> }/>
+          <Route path='/precios' element={ <Prices /> }/>
         </Routes>
       </Router>
     </div>

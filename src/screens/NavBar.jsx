@@ -9,12 +9,12 @@ const NavBar = ( {instagram} ) => {
     <nav className='nav'>
       <img src={logo} alt='logo condinv' className='nav__logo'/>
       <ul className="nav__ul">
-      <Link to='/Inicio'>
+      <Link to='/inicio'>
           <li className="nav__li">
             <a className="nav__a-page">Inicio</a>
           </li>
         </Link>
-        <Link to='/Precios'>
+        <Link to='/precios'>
           <li className="nav__li">
             <a className="nav__a-page">Precios</a>
           </li>
