@@ -1,0 +1,60 @@
+.plan {
+    border: 2px solid var(--color-amarillo-claro);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    padding: 1.5rem 1rem;
+    max-width: 300px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.plan__top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.plan__nombre-contenedor,
+.plan__costo-contenedor {
+    width: 50%;
+    text-align: center;
+    padding: .5rem;
+}
+
+.plan__nombre-contenedor {
+    background-color: var(--color-amarillo-claro);
+    color: var(--color-negro);
+    border-bottom-right-radius: 15px;
+}
+
+.plan__nombre {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.plan__costo {
+    font-family: var(--titulo-oswald);
+    color: var(--color-amarillo);
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+
+.plan__h4 {
+    margin: 2.2rem 0 1rem;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: var(--color-amarillo-claro);
+}
+
+.plan__ul {
+    padding-left: 1.2rem;
+    margin-bottom: 1.5rem;
+}

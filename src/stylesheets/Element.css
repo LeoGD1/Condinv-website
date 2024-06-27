@@ -1,0 +1,13 @@
+.li {
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+.li.color-on {
+    color: var(--color-blanco);
+}
+
+.li.color-off {
+    color: var(--color-gris);
+}
+

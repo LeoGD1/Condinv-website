@@ -1,0 +1,14 @@
+.btn-plan {
+    text-align: center;
+    display: block;
+    width: 100%;
+    color: var(--color-negro);
+    background-color: var(--color-amarillo-claro);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    padding: 10px 0;
+    font-weight: 500;
+}
